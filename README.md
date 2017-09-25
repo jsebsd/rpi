@@ -1,5 +1,11 @@
-# rpi
-This is the repository for my project. 
-Once the RPi is booted up, and logged into, the USB drive should be mounted.
-This is done by 
-> sudo mount /dev/sda1 usbmem
+# Overview
+
+This repo contains code for the
+["TensorFlow for poets 2" codelab](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2).
+
+This repo contains a simplified and trimmed down version of tensorflow's
+[android image classification example](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
+in the `android/` directory.
+
+The `scripts` directory contains helpers for the codelab.
+
